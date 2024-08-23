@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 68c04c158f97bdb4ba95670a1e1b1e56
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_0
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 202
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc00e30b7dcd6e45a2784aea5187a08
+      internalID: 890564169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 202
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41af1b265429c084aac9147778bef17e
+      internalID: -1387208388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 202
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dda2019f582eb41be4a94b58bb92b0
+      internalID: -1497880106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97da2b1ceaec0754696f9933b2f6d29f
+      internalID: 1260691822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 171
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba8e93694fdbb44dad9c9b17fbf169c
+      internalID: 2120185031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 171
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44adb390a8c65b54fa5f6ca572d5183f
+      internalID: -31464686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 171
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953d36c540884434f814e5bcf34f935c
+      internalID: 934836773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 171
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613139f582458bc419e6f7a6651ad3ab
+      internalID: 1425920949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 171
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bce3c99ee924ec4f94d48a153f6fd3c
+      internalID: -1993955700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 171
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda475bd661db894fbe56b02f89acd90
+      internalID: 1494687475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f20da24f203534c8003bc573d8e741
+      internalID: 1906542636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 171
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67294ac8c08590147afa015f49db3797
+      internalID: 696496669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 171
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004806d69dc8572499cbe1972668271f
+      internalID: 20850958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 139
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aac349d412d43418dbeecedd15a8ec
+      internalID: -1637459565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 139
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510d2a00bb3cf0a47bc2951d759a5ea7
+      internalID: 1741529670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 139
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad17c462d91d42347980819e70dc29b4
+      internalID: -1833862077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 139
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e729788fe2adaea42ba7bc6b79307a6a
+      internalID: -665900091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 139
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a9fb2a232adb344897a5cfafa3a7f4
+      internalID: 1871573990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 139
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f01d66de90760546aead94a21bd8a6e
+      internalID: -181941505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 139
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004939177adce0748abce7808d388df0
+      internalID: -363212945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_20
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 139
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5faafbaf88774c885dcd564314279
+      internalID: -1862143002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 139
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7228011883f0444a7b0a90b28cf64a
+      internalID: -1329665693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 139
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d14d9aa42c1374784a553fa1a8c33d
+      internalID: 2024296520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 106
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d542d6e3399ff44bea31c843e4e735
+      internalID: -665964794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 106
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0be77fa5e61b94aabc7d2476627af1
+      internalID: 1076828616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 106
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455b933b6d60f104eaf79458554beb6b
+      internalID: -895279199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 106
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0584617b6df84de4589676e9c694ed01
+      internalID: 2123280355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 106
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63336fc072ac5e948b18945a08aacbcd
+      internalID: -1908535591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 106
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b9c282a69deed459dd6d45cc69f9c9
+      internalID: 2024658555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 106
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d476544781d7840b8309bead9b04f0
+      internalID: 627254599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_30
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 106
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7fce5f20baaa946a249b20a430332c
+      internalID: -223484421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_31
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 106
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f54212dc0e40d42bab8edb96be04c6
+      internalID: 1090578982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 106
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac42ab88f4c8f498ba824ac03e77c8
+      internalID: 315928341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33970a4c905831a4d8e96200773a0e99
+      internalID: 1389994360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_34
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 80
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc9bc9d003962144860d3e9a369fce1
+      internalID: 583775652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 80
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e8eb46935ab8b4c99e224379494b06
+      internalID: 305624523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_36
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 80
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e651cbe6720ca24d98f027f4b2f6863
+      internalID: 2667850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 80
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaf74d15918e2e4b92ea17de8afac54
+      internalID: -406498700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_38
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 80
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdaffcb7ccdf764399e7a65dba9acd7
+      internalID: -51756851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 80
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a19a528ff8627044b4b0f5141aa7f79
+      internalID: -1707816856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447eeec4f51649a47ad0ff640867f56d
+      internalID: -892144408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_41
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 80
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd385716c6264f247b01a71e9477599b
+      internalID: 1257356007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_42
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6df9226e1ab814f998af8339935574
+      internalID: 215291137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227ebd3ff7352c14ea2d53a1ce7af147
+      internalID: -858698737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_44
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 55
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feb352d17c269e42b30ed14df030f20
+      internalID: -1482860102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_45
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 55
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c037ec1ec54042af1150c78609f92
+      internalID: -1275220463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 55
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f790e8b4fa121e4ab9ba41a7fe92734
+      internalID: -723493714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_47
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612dd801445f6444897d9aa1597abb8e
+      internalID: 1657416983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_48
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb9630144b01bc42b924628dda614e1
+      internalID: 188941488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_49
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 55
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c6ef72691f2ff42aefefd3785a0a3f
+      internalID: 374908092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_50
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 55
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72c4df1374cf3c4f8d0ed3a10dfacb3
+      internalID: -733033593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_51
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 55
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b3f71c7234dbc43a9484460e29ecb4
+      internalID: -1319567496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_52
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c811682b92dcc4dab7640f81087c80
+      internalID: 1736234936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa80f7df88fd6a844944c99c9e4d2327
+      internalID: 126836695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 26
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3944145bd91e379448672e3b905c4dfe
+      internalID: -1313460825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_55
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 26
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df14d81ed6349574596389e93ea43e45
+      internalID: 1461946654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_56
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 26
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf779c94bfa83848b3afe464a185f23
+      internalID: -353764973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643214d4586f69b49aa4b85f027fafed
+      internalID: -428962226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6ee6a496b457349a9343ce3f415f88
+      internalID: 150689802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_59
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 112
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa0c1c66bced854f83fc698ab323259
+      internalID: 2011485616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_60
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 49
+        width: 77
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f8ac456be5610428429dd3918faaec
+      internalID: 808082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_0: 890564169
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_1: -1387208388
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_10: 1906542636
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_11: 696496669
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_12: 20850958
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_13: -1637459565
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_14: 1741529670
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_15: -1833862077
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_16: -665900091
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_17: 1871573990
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_18: -181941505
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_19: -363212945
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_2: -1497880106
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_20: -1862143002
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_21: -1329665693
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_22: 2024296520
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_23: -665964794
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_24: 1076828616
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_25: -895279199
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_26: 2123280355
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_27: -1908535591
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_28: 2024658555
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_29: 627254599
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_3: 1260691822
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_30: -223484421
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_31: 1090578982
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_32: 315928341
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_33: 1389994360
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_34: 583775652
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_35: 305624523
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_36: 2667850
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_37: -406498700
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_38: -51756851
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_39: -1707816856
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_4: 2120185031
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_40: -892144408
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_41: 1257356007
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_42: 215291137
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_43: -858698737
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_44: -1482860102
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_45: -1275220463
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_46: -723493714
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_47: 1657416983
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_48: 188941488
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_49: 374908092
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_5: -31464686
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_50: -733033593
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_51: -1319567496
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_52: 1736234936
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_53: 126836695
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_54: -1313460825
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_55: 1461946654
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_56: -353764973
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_57: -428962226
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_58: 150689802
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_59: 2011485616
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_6: 934836773
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_60: 808082
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_7: 1425920949
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_8: -1993955700
+      Custom Edited - Pico Customs - Hanzo Mega Man 8-bit Deathmatch-Style_9: 1494687475
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
