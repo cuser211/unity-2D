@@ -5,18 +5,25 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    private float xInput,yInput;
-    [SerializeField] private float movespeed,jumpspeed;
+    private float xInput, yInput;
+
+    [SerializeField] private float movespeed, jumpspeed;
     [SerializeField] private Rigidbody2D rb;
+
+    [Header("Collision info")]
+    [SerializeField] private float groundCheckDistance;
+    [SerializeField] private LayerMask whatIsGround;
+    private bool isGrounded;
+
     private Animator anim;
     private int facingDirection = 1;
     private bool facingRight = true;
-    private int jumpcount = 1;
+
     // Start is called before the first frame update
     void Start()
     {
         movespeed = 5;
-        jumpspeed = 5;
+        jumpspeed = 10;
         anim = GetComponentInChildren<Animator>();
         //isMoving = false;
     }
@@ -24,22 +31,28 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+
         Movement();
-        ChectInput();
+        CheckInput();
+        CollisionCheck();
         FlipController();
         AnimatorControllers();
 
     }
 
-    private void ChectInput()
+    private void CollisionCheck()
+    {
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
+    }
+
+    private void CheckInput()
     {
         xInput = Input.GetAxisRaw("Horizontal");
         //yInput = Input.GetAxisRaw("Vertical");
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            JumpController();
+            Jump();
         }
 
         if (Input.GetKeyDown(KeyCode.S))
@@ -61,22 +74,16 @@ public class player : MonoBehaviour
 
     private void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpspeed);
-    }
-
-    private void JumpController()
-    {
-        if (jumpcount > 0)
-        {
-        Jump();
-        jumpcount--;
-        }
+        if (isGrounded) rb.velocity = new Vector2(rb.velocity.x, jumpspeed);
     }
 
     private void AnimatorControllers()
     {
-        bool isMoving = rb.velocity.x != 0;     
+        bool isMoving = rb.velocity.x != 0;
+        anim.SetFloat("yVelocity", rb.velocity.y);
+
         anim.SetBool("isMoving", isMoving);
+        anim.SetBool("isGrounded", isGrounded);
     }
     private void Flip()
     {
@@ -86,9 +93,14 @@ public class player : MonoBehaviour
     }
     private void FlipController()
     {
-        if (rb.velocity.x > 0 && !facingRight)        
+        if (rb.velocity.x > 0 && !facingRight)
             Flip();
-        else if (rb.velocity.x < 0 && facingRight)        
+        else if (rb.velocity.x < 0 && facingRight)
             Flip();
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(transform.position, new Vector3(transform.position.x, transform.position.y - groundCheckDistance));
     }
 }

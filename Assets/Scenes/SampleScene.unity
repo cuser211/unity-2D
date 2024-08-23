@@ -156,6 +156,10 @@ MonoBehaviour:
   movespeed: 0
   jumpspeed: 0
   rb: {fileID: 74198228}
+  groundCheckDistance: 1.35
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!50 &74198228
 Rigidbody2D:
   serializedVersion: 4
@@ -171,7 +175,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -192,7 +196,7 @@ Transform:
   m_GameObject: {fileID: 74198226}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.23, y: 7.94, z: 0}
+  m_LocalPosition: {x: 0.11, y: 7.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -375,7 +379,7 @@ GameObject:
   - component: {fileID: 358630082}
   - component: {fileID: 358630081}
   - component: {fileID: 358630080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +601,7 @@ GameObject:
   - component: {fileID: 638267353}
   - component: {fileID: 638267352}
   - component: {fileID: 638267351}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +945,7 @@ Animator:
   m_GameObject: {fileID: 1569524335}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9fa7116992cb08e4fb673438e292e650, type: 2}
+  m_Controller: {fileID: 9100000, guid: 036933a952b44c345a90a590b715c265, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -963,7 +967,7 @@ GameObject:
   - component: {fileID: 1787149551}
   - component: {fileID: 1787149550}
   - component: {fileID: 1787149549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1357,7 @@ GameObject:
   - component: {fileID: 2125784962}
   - component: {fileID: 2125784961}
   - component: {fileID: 2125784960}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
