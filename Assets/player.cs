@@ -1,14 +1,16 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {
-    private float xInput, yInput;
+    [Header("Move info")]    
+    [SerializeField] private float movespeed;
+    [SerializeField] private float jumpspeed;
+    private float xInput;
 
-    [SerializeField] private float movespeed, jumpspeed;
-    [SerializeField] private Rigidbody2D rb;
 
-    [Header("Attack info")]
-    private bool isAttacking;
+    [Header("Attack info")]    
+    [SerializeField] private float comboTime = .3f;
+    [SerializeField] private float comboTimeWindow;
     private int comboCounter;
 
 
@@ -19,38 +21,34 @@ public class Player : MonoBehaviour
     [SerializeField] private float dashCoolDown;
     [SerializeField] private float dashCoolDownTimer;
 
-    [Header("Collision info")]
-    [SerializeField] private float groundCheckDistance;
-    [SerializeField] private LayerMask whatIsGround;
-    private bool isGrounded;
-
-    private Animator anim;
-    private int facingDirection = 1;
-    private bool facingRight = true;
-
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         movespeed = 5;
-        jumpspeed = 10;
-        dashDuration = 0.15F;
+        jumpspeed = 15;
         dashSpeed = 30;
+        dashDuration = 0.15f;
         dashCoolDown = 1;
-        anim = GetComponentInChildren<Animator>();
-        //isMoving = false;
+        comboTime = 1;
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
+        base.Update();
 
         dashTime -= Time.deltaTime;
         dashCoolDownTimer -= Time.deltaTime;
-
+        
+        comboTimeWindow -= Time.deltaTime;
+        if (comboTimeWindow < 0)
+        {
+            comboCounter = 0;
+        }
 
         Movement();
         CheckInput();
-        CollisionCheck();
         FlipController();
         AnimatorControllers();
 
@@ -59,18 +57,16 @@ public class Player : MonoBehaviour
     public void AttackOver()
     {
         isAttacking = false;
-    }
-    
-    private void CollisionCheck()
-    {
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
+        comboCounter++;
+        if (comboCounter > 2)
+        {
+            comboCounter = 0;
+        }
     }
 
     private void CheckInput()
     {
         xInput = Input.GetAxisRaw("Horizontal");
-        //yInput = Input.GetAxisRaw("Vertical");
-
         if (Input.GetKeyDown(KeyCode.K))
         {
             Jump();
@@ -86,13 +82,20 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.J))
         {
-            isAttacking = true;
+            StartAttackEvent();
         }
+    }
+
+    private void StartAttackEvent()
+    {
+        if (!isGrounded) return;
+        isAttacking = true;
+        comboTimeWindow = comboTime;
     }
 
     private void DashAbility()
     {
-        if (dashCoolDownTimer < 0)
+        if (dashCoolDownTimer < 0&& !isAttacking)
         {
             dashCoolDownTimer = dashCoolDown;
             dashTime = dashDuration;
@@ -101,9 +104,13 @@ public class Player : MonoBehaviour
 
     private void Movement()
     {
-        if (dashTime > 0)
+        if (isAttacking)
         {
-            rb.velocity = new Vector2(xInput * dashSpeed, 0);
+            rb.velocity = new Vector2(0, 0);
+        }
+        else if (dashTime > 0)
+        {
+            rb.velocity = new Vector2(facingDirection * dashSpeed, 0);
         }
         else
         {
@@ -132,12 +139,7 @@ public class Player : MonoBehaviour
         anim.SetBool("isAttacking", isAttacking);
         anim.SetInteger("comboCounter", comboCounter);
     }
-    private void Flip()
-    {
-        facingDirection = facingDirection * -1;
-        facingRight = !facingRight;
-        transform.Rotate(0, 180, 0);
-    }
+
     private void FlipController()
     {
         if (rb.velocity.x > 0 && !facingRight)
@@ -146,8 +148,10 @@ public class Player : MonoBehaviour
             Flip();
     }
 
-    private void OnDrawGizmos()
+    protected override void CollisionCheck()
     {
-        Gizmos.DrawLine(transform.position, new Vector3(transform.position.x, transform.position.y - groundCheckDistance));
+        base.CollisionCheck();
     }
+
 }
+///////////////////////////////////
