@@ -1,14 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private float xInput, yInput;
 
     [SerializeField] private float movespeed, jumpspeed;
     [SerializeField] private Rigidbody2D rb;
+
+    [Header("Attack info")]
+    private bool isAttacking;
+    private int comboCounter;
+
+
+    [Header("Dash info")]
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashTime;
+    [SerializeField] private float dashDuration;
+    [SerializeField] private float dashCoolDown;
+    [SerializeField] private float dashCoolDownTimer;
 
     [Header("Collision info")]
     [SerializeField] private float groundCheckDistance;
@@ -24,6 +33,9 @@ public class player : MonoBehaviour
     {
         movespeed = 5;
         jumpspeed = 10;
+        dashDuration = 0.15F;
+        dashSpeed = 30;
+        dashCoolDown = 1;
         anim = GetComponentInChildren<Animator>();
         //isMoving = false;
     }
@@ -31,6 +43,10 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        dashTime -= Time.deltaTime;
+        dashCoolDownTimer -= Time.deltaTime;
+
 
         Movement();
         CheckInput();
@@ -40,6 +56,11 @@ public class player : MonoBehaviour
 
     }
 
+    public void AttackOver()
+    {
+        isAttacking = false;
+    }
+    
     private void CollisionCheck()
     {
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
@@ -50,7 +71,7 @@ public class player : MonoBehaviour
         xInput = Input.GetAxisRaw("Horizontal");
         //yInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             Jump();
         }
@@ -59,12 +80,35 @@ public class player : MonoBehaviour
         {
             Down();
         }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            DashAbility();
+        }
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            isAttacking = true;
+        }
+    }
+
+    private void DashAbility()
+    {
+        if (dashCoolDownTimer < 0)
+        {
+            dashCoolDownTimer = dashCoolDown;
+            dashTime = dashDuration;
+        }
     }
 
     private void Movement()
     {
-        rb.velocity = new Vector2(xInput * movespeed, rb.velocity.y);
-        //rb.velocity = new Vector2(rb.velocity.x, yInput * jumpspeed);
+        if (dashTime > 0)
+        {
+            rb.velocity = new Vector2(xInput * dashSpeed, 0);
+        }
+        else
+        {
+            rb.velocity = new Vector2(xInput * movespeed, rb.velocity.y);
+        }
     }
 
     private void Down()
@@ -84,6 +128,9 @@ public class player : MonoBehaviour
 
         anim.SetBool("isMoving", isMoving);
         anim.SetBool("isGrounded", isGrounded);
+        anim.SetBool("isDushing", dashTime > 0);
+        anim.SetBool("isAttacking", isAttacking);
+        anim.SetInteger("comboCounter", comboCounter);
     }
     private void Flip()
     {
